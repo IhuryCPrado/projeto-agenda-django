@@ -15,6 +15,5 @@ git config --global user.email 'seu_email@gmail.com'
 git config --global init.defaultBranch main
 git init
 git add .
-git commit
-
+git commit -m ''
 ```
