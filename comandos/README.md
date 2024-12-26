@@ -18,3 +18,19 @@ git init
 git add .
 git commit -m ''
 ```
+
+
+
+Migrando a base de dados do Django
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+
+
+Criando e modificando a senha de um super usuario Django
+```
+python manage.py createsuperuser
+python manage.py changepassword USERNAME
+```
